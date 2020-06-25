@@ -29,5 +29,3 @@
 export const demoComponents = [];
 
 export const demoRoutes = [];
-
-export const demoCode2 = 'EVIL DEMO CODE2';

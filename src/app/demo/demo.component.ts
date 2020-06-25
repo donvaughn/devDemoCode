@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DemoComponent implements OnInit {
   // TODO: 10b) Variable erstellen, die im Kompilat gesucht werden kann. Dann einen Skript (npm oder shell) schreiben,
   //  den diesem Code sucht und CI Build verhindert, wenn gefunden
-  static readonly demoCode = 'EVIL DEMO CODE';
+  static readonly demoCodeExists = 'EVIL DEMO CODE';
 
   constructor() { }
 

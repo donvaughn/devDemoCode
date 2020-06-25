@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build",
     "build:prod": "ng build --prod && npm run break-if-demo-found",
-    "break-if-demo-found": "grep -nrq 'EVIL DEMO CODE' dist/devDemoCode/ && echo \"Evil code found!\" && exit 1",
+    "break-if-demo-found": "(grep -nrq 'EVIL DEMO CODE' dist/devDemoCode/ && echo \"Evil code found!\" && exit 1) || true",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
