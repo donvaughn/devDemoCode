@@ -4,14 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { demoComponents } from './demo/demo-definitions';
-import { StartseiteComponent } from './startseite/startseite.component';
+import { StartComponent } from './start/start.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     // TODO: 6) Demo Components einbinden
     ...demoComponents,
-    StartseiteComponent,
+    StartComponent,
   ],
   imports: [
     BrowserModule,
