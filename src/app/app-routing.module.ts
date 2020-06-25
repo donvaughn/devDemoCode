@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { StartComponent } from './start/start.component';
+import { demoRoutes } from './demo/demo-definitions';
 
 export const appRoutes: Routes = [
   {
     path: '',
-    component: StartseiteComponent,
+    component: StartComponent,
   },
   // TODO: 5) Demo Routes einbinden
   ...demoRoutes,
